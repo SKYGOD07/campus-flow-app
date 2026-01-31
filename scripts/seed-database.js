@@ -3,7 +3,6 @@ const { getFirestore, collection, addDoc, Timestamp } = require("firebase/firest
 const { getAuth, signInAnonymously, createUserWithEmailAndPassword } = require("firebase/auth");
 const { faker } = require("@faker-js/faker");
 
-;
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
